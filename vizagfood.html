@@ -1,0 +1,224 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.bg{
+  width:255px ;
+  height:175px ;
+}
+
+
+.button {
+position: absolute;
+transform: translate(-50%, -50%);
+width: 60px;
+height: 30px;
+text-align: center;
+line-height: 40px;
+color: #fff;
+font-size: 10px;
+text-transform: uppercase;
+text-decoration: none;
+font-family: sans-serif;
+box-sizing: border-box;
+background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+background-size: 400%;
+border-radius: 30px;
+padding-left: 10px;;
+}
+a:hover {
+animation: animate 8s linear infinite;
+}
+@keyframes animate {
+0% {
+background-position: 0%;
+}
+100% {
+background-position: 400%;
+}
+}
+a:before {
+content: "";
+position: absolute;
+top: -5px;
+left: -5px;
+right: -5px;
+bottom: -5px;
+z-index: -1;
+background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
+background-size: 400%;
+border-radius: 40px;
+opacity: 0;
+transition: 0.5%;
+}
+a:hover:before {
+filter: blur(20px);
+opacity: 1;
+animation: animate 8s linear infinite;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px; 
+padding-bottom: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card:hover
+{
+background-color:#ed7d08;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<link rel="stylesheet" href="Uidpg2.css">
+<div class = "header">
+            <h2 style = "color:white;font-size:100%;">
+               <h1><img src="https://i.pinimg.com/originals/34/98/31/349831461d6d6e5ad16e348d0baa2f23.gif"  align="right" height= 120px; width= 160px;/> <span>FOod HOuse </span> </h3>
+</h1>
+            </h2>
+        </div>
+<div class="bar">
+
+
+<a href="" > <i class="fa fa-search"></i>Search</a>
+<a href="C:\Users\Vandit Narayana\Downloads\foosdsignin.html"> <i class="fa fa-user-circle"></i>Sign In</a>
+<a href="" ><i class="fa fa-tag"></i>Offers</a>
+<a href="" ><i class="fa fa-shopping-cart"></i>Your Cart</a>
+<a href="" ><i class="fa fa-info-circle"></i>Help Center</a>
+
+</div>
+<h2>Your top food picks for this week</h2>
+<p><i>Place your order nowwwww!! </i></p>
+
+<div class="row">
+  <div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://www.swagruhafoods.net/assets/images/4.jpg');
+ background-size:285px 175px;"> </div>
+      <h3>Swagruha Foods </h3>
+      <p><i>Sweets and saviours</i></p>
+      <p>Sector 2, MVP colony</p>
+<div class="button" ><a href="C:\Users\Vandit Narayana\Downloads\uidfoodmenu.html"> Menu</a> </div>
+    </div>
+  </div>
+
+ 
+  <div class="column">
+    <div class="card"> <div class="bg" style="background-image:url('https://assets3.thrillist.com/v1/image/2677639/828x610/flatten;crop;webp=auto;jpeg_quality=70');
+ background-size:285px 175px;"> 
+</div>
+      <h3>Baskin Robbins</h3>
+      <p><i>Desserts house</i></p>
+      <p>Gajuwaka</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+  
+ 
+  <div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg');
+ background-size:285px 175px;"> </div>
+      <h3>Palm Retreats</h3>
+      <p><i>Coffee House</i></p>
+      <p>Sector 2,Lawson's bay colony</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://5.imimg.com/data5/PK/HX/GLADMIN-33192642/laddu-250x250.png');
+ background-size:285px 175px;"> </div>
+      <h3>Laddu Gopal</h3>
+      <p>Savouries</p>
+      <p>Double Roads</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://i1.wp.com/vegecravings.com/wp-content/uploads/2016/07/veg-biryani-recipe-step-by-step-instructions.jpg?fit=3563%2C2976&quality=30&strip=all&ssl=1');
+ background-size:285px 175px;"> </div>
+      <h3>7 Biryani's </h3>
+      <p><i>Biryani House</i></p>
+      <p>Main road,Madhurwada</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://c.ndtvimg.com/2020-04/dih4ifhg_pasta_625x300_22_April_20.jpg');
+ background-size:285px 175px;"> </div>
+      <h3>Little Italy </h3>
+      <p><i>Italian Cuisine</i></p>
+      <p>Sector 11,Cancer Hospitals Road</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-ALX7tSMUaDMZhLtUt6Keg2LO2TAZufEllvbynp8SF07qjtuRZu5X8l4w5AZJW-jYe8&usqp=CAU');
+ background-size:285px 175px;"> </div>
+      <h3>Drunken Monkey </h3>
+      <p><i>Baker's point</i></p>
+      <p>Bunk road, Dwaraka Nagar</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card"><div class="bg" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl72m5JeKJuaEI5jvIX3wsAJR0omVGsFx0ow&usqp=CAU');
+ background-size:285px 175px;"> </div>
+      <h3>Guntur Mess </h3>
+      <p><i>Family Restaurant</i></p>
+      <p>Banker's colony,City Highway</p>
+<div class="button" ><a href=""> Menu</a> </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ </div>
+</div>
+
+</body>
+</head> 
+</html>
